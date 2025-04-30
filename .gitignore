@@ -1,0 +1,21 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+env/
+
+# ChromeDriver executable
+chromedriver.exe
+
+# IDE configurations
+.idea/
+.vscode/
+
+# Environment variable files
+.env
+
+# Logs
+*.log
