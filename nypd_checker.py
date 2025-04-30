@@ -15,7 +15,7 @@ CALENDLY_URL = "https://calendly.com/nypd_license_division/fingerprinting-appoin
 PUSHOVER_USER_KEY = os.getenv("PUSHOVER_USER_KEY")
 PUSHOVER_API_TOKEN = os.getenv("PUSHOVER_API_TOKEN")
 DATE_CUTOFF = datetime.strptime("2025-07-24", "%Y-%m-%d")
-CHECK_INTERVAL = 60
+CHECK_INTERVAL = 600
 
 # Months to check
 months_to_check = ["2025-05", "2025-06", "2025-07"]
